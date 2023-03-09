@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.text h2 {
+    text-align:center;
+    position: relative;
+    top: 40%;
+}
+.container .text {
+    height: 6em;
+    background-color: red;
+    color: black;
+}
+.main {
+    display: flex;
+}
+.items {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+.items>div {
+    width: 250px;
+    height: 250px;
+    border: solid 1px black;
+}
+.map{
+    width: 50%;
+    height: 100vh;
+}
+.map h1 {
+    position: relative;
+    left: 50%;
+    top: 50vh;
+}
