@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+} 
+.main {
+    display: flex;
+    margin-left: 12em; margin-right: 6em;
+    row-gap: 2em;
+    flex-direction: column;
+}
+.text1{
+    display: inline-block;
+    margin-left: 3em;
+}
+.text2{
+    display: inline-block;
+    margin-left: 2em;
+}
+.top { 
+    justify-content:space-between;
+    display: flex;
+}
+.top .left-side {
+    background-color: yellow;
+    width: 10%;
+    height: 6em;
+}
+.top .right-side  {
+    background-color: purple;
+    width: 55%;
+    height: 6em;
+}
+.items {
+    flex-wrap: wrap; display: flex;
+    justify-content:space-between;
+    gap: 2em;
+}
+.items>div {
+    width: 15em; height: 19em;   
+    border: solid 2px black;
+}
